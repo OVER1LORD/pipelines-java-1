@@ -7,7 +7,7 @@ pipeline {
     }
 
     stages {
-        stage('Build') {
+        stage('Build and Package') {
             steps {
                 // Get some code from a GitHub repository
                 git branch: 'main',
